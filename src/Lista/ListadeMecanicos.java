@@ -9,5 +9,22 @@ package Lista;
  * @author Jhon fonseca
  */
 public class ListadeMecanicos {
+   String Mecanicos;
+   
+    public ListadeMecanicos(){
+    }
+
+    public ListadeMecanicos(String Mecanicos) {
+        this.Mecanicos = Mecanicos;
+    }
+
+    public String getMecanicos() {
+        return Mecanicos;
+    }
+
+    public void setMecanicos(String Mecanicos) {
+        this.Mecanicos = Mecanicos;
+    }
+
     
 }
