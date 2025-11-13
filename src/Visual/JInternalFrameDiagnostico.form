@@ -260,7 +260,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Dianostico"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                  <Border info="null"/>
+                  <Border info="org.netbeans.modules.form.compat2.border.CompoundBorderInfo">
+                    <CompoundBorder/>
+                  </Border>
                 </Property>
               </Properties>
               <Events>
@@ -268,13 +270,13 @@
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="409" y="0" width="60" height="50"/>
+                  <AbsoluteConstraints x="410" y="0" width="60" height="50"/>
                 </Constraint>
               </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel11">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel11"/>
+                <Property name="text" type="java.lang.String" value="Proceso"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -411,7 +413,11 @@
             <Component class="javax.swing.JComboBox" name="jComboBoxMecanico">
               <Properties>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                  <StringArray count="0"/>
+                  <StringArray count="3">
+                    <StringItem index="0" value="jhon"/>
+                    <StringItem index="1" value="fonseca"/>
+                    <StringItem index="2" value="pineda"/>
+                  </StringArray>
                 </Property>
               </Properties>
               <AuxValues>
@@ -447,7 +453,7 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="302" y="80" width="410" height="263"/>
+              <AbsoluteConstraints x="300" y="70" width="410" height="263"/>
             </Constraint>
           </Constraints>
 

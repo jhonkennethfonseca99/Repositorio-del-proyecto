@@ -186,15 +186,15 @@ public class JInternalFrameDiagnostico extends javax.swing.JInternalFrame {
         jButton6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("Dianostico");
-        jButton6.setBorder(null);
+        jButton6.setBorder(javax.swing.BorderFactory.createCompoundBorder());
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
             }
         });
-        jPanel3.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(409, 0, 60, 50));
+        jPanel3.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 0, 60, 50));
 
-        jLabel11.setText("jLabel11");
+        jLabel11.setText("Proceso");
         jPanel3.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 20, -1, -1));
 
         jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 50));
@@ -231,6 +231,8 @@ public class JInternalFrameDiagnostico extends javax.swing.JInternalFrame {
                 jTextFieldPlacaKeyTyped(evt);
             }
         });
+
+        jComboBoxMecanico.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "jhon", "fonseca", "pineda" }));
 
         jLabel12.setText("Dueño:");
 
@@ -316,7 +318,7 @@ public class JInternalFrameDiagnostico extends javax.swing.JInternalFrame {
         ));
         jScrollPane1.setViewportView(jTableDiagnostico);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(302, 80, 410, 263));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 70, 410, 263));
 
         jTextFieldDiagnostico.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -480,7 +482,8 @@ public class JInternalFrameDiagnostico extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_jButtonGuardarActionPerformed
 
     private void jButtonBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBuscarActionPerformed
-        // TODO add your handling code here:
+if (buscarVehiculo(cod)) {
+    vehivulo// TODO add your handling code here:
     }//GEN-LAST:event_jButtonBuscarActionPerformed
 
     private void jButtonActulizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonActulizarActionPerformed
